@@ -17,7 +17,7 @@
         {{ if .HasChildren }}
         <li class="nav-item dropdown">
           <a href="#" class="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" data-toggle="dropdown">
-            {{ .Name }}
+            {{ .Pre }} <span>{{ .Name }}</span>
             <span class="caret"></span>
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
