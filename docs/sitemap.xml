@@ -3,50 +3,50 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/documentation/nucleo-icons/</loc>
+    <loc>/hugo-now-ui/documentation/nucleo-icons/</loc>
   </url>
   
   <url>
-    <loc>/documentation/template/</loc>
+    <loc>/hugo-now-ui/documentation/template/</loc>
   </url>
   
   <url>
-    <loc>/documentation/tutorial-components/</loc>
+    <loc>/hugo-now-ui/documentation/tutorial-components/</loc>
   </url>
   
   <url>
-    <loc>/login/</loc>
+    <loc>/hugo-now-ui/login/</loc>
   </url>
   
   <url>
-    <loc>/profile/</loc>
+    <loc>/hugo-now-ui/profile/</loc>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/hugo-now-ui/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/hugo-now-ui/</loc>
   </url>
   
   <url>
-    <loc>/documentation/</loc>
+    <loc>/hugo-now-ui/documentation/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>/hugo-now-ui/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/blank/</loc>
+    <loc>/hugo-now-ui/blank/</loc>
   </url>
   
   <url>
-    <loc>/landing/</loc>
+    <loc>/hugo-now-ui/landing/</loc>
   </url>
   
 </urlset>
