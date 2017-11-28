@@ -3,7 +3,7 @@
     {{ partial "nav" . }}
     <div class="wrapper">
         <div class="page-header page-header-small" filter-color="{{.Params.tint}}">
-            <div class="page-header-image" data-parallax="true" style="background-image: url('{{ .Params.background | absURL }}');">
+            <div class="page-header-image" data-parallax="true" style="background-image:url('{{ .Params.background | absURL }}');">
             </div>
             {{.Params.header | safeHTML }}
         </div>
