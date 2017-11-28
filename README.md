@@ -1,6 +1,8 @@
 # NOW-UI for Hugo
 
-[Creative Tim](https://www.creative-tim.com/product/now-ui-kit) adapted the popular [Invision UI Kit](https://www.invisionapp.com/now)
+[![version][version-badge]][CHANGELOG] [![license][license-badge]][LICENSE]
+
+[Creative Tim](https://github.com/creativetimofficial/now-ui-kit) adapted the popular [Invision UI Kit](https://www.invisionapp.com/now)
 to HTML. [cboettig](https://github.com/cboettig) brings it to Hugo.  MIT Licensed.
 
 **[Live preview](https://cboettig.github.io/hugo-now-ui).**
