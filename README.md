@@ -24,8 +24,15 @@ For more details, see the [preview pages](https://cboettig.github.io/hugo-now-ui
 
 ## Screenshots
 
+### Wide display menu
+
 ![](readme-img/menu-wide.png)
 
+
+### Menu collapsed on smaller display
+
 ![](readme-img/menu-collapse.png)
+
+### Side-drawer menu open 
 
 ![](readme-img/sidemenu.png)
