@@ -3,50 +3,50 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>hugo-now-ui/documentation/nucleo-icons/</loc>
+    <loc>/hugo-now-ui/documentation/nucleo-icons/</loc>
   </url>
   
   <url>
-    <loc>hugo-now-ui/documentation/template/</loc>
+    <loc>/hugo-now-ui/documentation/template/</loc>
   </url>
   
   <url>
-    <loc>hugo-now-ui/documentation/tutorial-components/</loc>
+    <loc>/hugo-now-ui/documentation/tutorial-components/</loc>
   </url>
   
   <url>
-    <loc>hugo-now-ui/login/</loc>
+    <loc>/hugo-now-ui/login/</loc>
   </url>
   
   <url>
-    <loc>hugo-now-ui/profile/</loc>
+    <loc>/hugo-now-ui/profile/</loc>
   </url>
   
   <url>
-    <loc>hugo-now-ui/categories/</loc>
+    <loc>/hugo-now-ui/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>hugo-now-ui/</loc>
+    <loc>/hugo-now-ui/</loc>
   </url>
   
   <url>
-    <loc>hugo-now-ui/documentation/</loc>
+    <loc>/hugo-now-ui/documentation/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>hugo-now-ui/tags/</loc>
+    <loc>/hugo-now-ui/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>hugo-now-ui/blank/</loc>
+    <loc>/hugo-now-ui/blank/</loc>
   </url>
   
   <url>
-    <loc>hugo-now-ui/landing/</loc>
+    <loc>/hugo-now-ui/landing/</loc>
   </url>
   
 </urlset>
