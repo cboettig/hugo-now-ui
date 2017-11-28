@@ -1,3 +1,4 @@
+theme = "hugo-now-ui"
 baseurl = "/"
 relativeurls = true
 languageCode = "en-us"
@@ -26,6 +27,25 @@ publishDir = "../docs"
     pre = "<i class='now-ui-icons clothes_tie-bow'></i>"
     url = "/login"
     weight = 3
+[[menu.main]]
+    name = "Dropdown"
+    pre = "<i class='now-ui-icons ui-1_settings-gear-63'></i>"
+    url = "#"
+    weight = 4
+    identifier = "dropdown"
+[[menu.main]]
+    name = "Components"
+    pre = "<i class='now-ui-icons files_paper'></i>"
+    url = "#"
+    weight = 1
+    parent = "dropdown"
+[[menu.main]]
+    name = "template"
+    pre = "<i class='now-ui-icons files_paper'></i>"
+    url = "#"
+    weight = 2
+    parent = "dropdown"
+
     
 [[menu.footer]]
     identifier = "twitter"
