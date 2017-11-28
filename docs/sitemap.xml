@@ -28,6 +28,10 @@
   </url>
   
   <url>
+    <loc>/</loc>
+  </url>
+  
+  <url>
     <loc>/documentation/</loc>
     <priority>0</priority>
   </url>
@@ -38,7 +42,7 @@
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/blank/</loc>
   </url>
   
   <url>
