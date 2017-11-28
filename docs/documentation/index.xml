@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Documentations on Now UI Kit</title>
-    <link>/documentation/</link>
+    <link>/hugo-now-ui/documentation/</link>
     <description>Recent content in Documentations on Now UI Kit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/documentation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/hugo-now-ui/documentation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>/documentation/nucleo-icons/</link>
+      <link>/hugo-now-ui/documentation/nucleo-icons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/documentation/nucleo-icons/</guid>
+      <guid>/hugo-now-ui/documentation/nucleo-icons/</guid>
       <description>Nucleo Outline Web Font  /* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main { display: block; } body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: &#39;&#39;; content: none; } table { border-collapse: collapse; border-spacing: 0; } /* -------------------------------- Nucleo Outline Web Font - nucleoapp.</description>
     </item>
     
     <item>
       <title></title>
-      <link>/documentation/template/</link>
+      <link>/hugo-now-ui/documentation/template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/documentation/template/</guid>
+      <guid>/hugo-now-ui/documentation/template/</guid>
       <description>Now Ui Kit       Link
   Link
    Twitter
@@ -35,10 +35,10 @@
     
     <item>
       <title></title>
-      <link>/documentation/tutorial-components/</link>
+      <link>/hugo-now-ui/documentation/tutorial-components/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/documentation/tutorial-components/</guid>
+      <guid>/hugo-now-ui/documentation/tutorial-components/</guid>
       <description>Components Documentation - Now Ui Kit by Creative Tim   pre.prettyprint { background-color: #eee; border: 0px; margin-bottom: 60px; margin-top: 30px; padding: 20px; text-align: left; } .atv, .str { color: #05AE0E; } .tag, .pln, .kwd { color: #3472F7; } .atn { color: #2C93FF; } .pln { color: #333; } .com { color: #999; } .space-top { margin-top: 50px; } .btn-primary .caret { border-top-color: #3472F7; color: #3472F7; } .area-line { border: 1px solid #999; border-left: 0; border-right: 0; color: #666; display: block; margin-top: 20px; padding: 8px 0; text-align: center; } .</description>
     </item>
     
