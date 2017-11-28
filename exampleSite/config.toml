@@ -1,5 +1,5 @@
 theme = "hugo-now-ui"
-baseurl = "/hugo-now-ui"
+baseurl = "/"
 relativeurls = true
 languageCode = "en-us"
 title = "Now UI Kit"
