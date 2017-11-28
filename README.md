@@ -5,7 +5,7 @@ to HTML. [cboettig](https://github.com/cboettig) brings it to Hugo.  MIT License
 
 **[Live preview](https://cboettig.github.io/hugo-now-ui).**
 
-![](readme-img/hero.png)
+![](https://github.com/cboettig/hugo-now-ui/blob/master/images/tn.png)
 
 
 
@@ -26,13 +26,13 @@ For more details, see the [preview pages](https://cboettig.github.io/hugo-now-ui
 
 ### Wide display menu
 
-![](readme-img/menu-wide.png)
+![](https://github.com/cboettig/hugo-now-ui/blob/master/images/menu-wide.png)
 
 
 ### Menu collapsed on smaller display
 
-![](readme-img/menu-collapse.png)
+![](https://github.com/cboettig/hugo-now-ui/blob/master/images/menu-collapse.png)
 
 ### Side-drawer menu open 
 
-![](readme-img/sidemenu.png)
+![](https://github.com/cboettig/hugo-now-ui/blob/master/images/sidemenu.png)
