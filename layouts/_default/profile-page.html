@@ -1,20 +1,9 @@
+{{ define "title" }}
+{{ .Params.header | safeHTML }}
+{{ end }}
+            
 {{ define "body" }}
-<body class="profile-page sidebar-collapse">
-    {{ partial "nav" . }}
-    <div class="wrapper">
-        <div class="page-header page-header-small" filter-color="{{.Params.tint}}">
-            <div class="page-header-image" data-parallax="true" style="background-image:url('{{ .Params.background }}');">
-            </div>
-            {{.Params.header | safeHTML }}
-        </div>
-        <div class="section">
-            <div class="container">
-              
-              {{ .Content }}
+{{ .Content }}
+{{ end }}
 
-            </div>
-        </div>
-      {{ partial "footer" . }}
-    </div>
-</body>
-{{end}}
+  

@@ -1,29 +1,20 @@
-{{ define "body" }}
-<body class="landing-page sidebar-collapse">
-    {{ partial "nav" . }}
-    <div class="wrapper">
-        <div class="page-header page-header-small">
-            <div class="page-header-image" data-parallax="true" style="background-image: url('{{ .Params.background }}');">
-            </div>
+{{ define "title" }}
             <div class="container">
                 <div class="content-center">
                     <h1 class="title">{{ .Title }}</h1>
                     <div class="text-center">
-                      {{ .Params.description | safeHTML }}
+                      {{with .Params.description }} {{ . | safeHTML }} {{ end }}
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="section">
-            <div class="container">
+{{ end }}
+
+{{ define "body" }}
+
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto text-center">
                       {{ .Content }}
                     </div>   
                 </div>
-            </div>
-        </div>
-        {{partial "footer" . }}
-    </div>
-</body>
-{{ end }}
+{{ end }}        
+ 
