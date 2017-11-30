@@ -1,19 +1,19 @@
-{{ define "body" }}
-<body class="profile-page sidebar-collapse">
-    {{ partial "nav" . }}
-    <div class="wrapper">
-        <div class="page-header page-header-small" filter-color="{{.Params.tint}}">
-            <div class="page-header-image" data-parallax="true" style="background-image: url('{{.Params.background}}');">
-            </div>
-        </div>
-        <div class="section">
-            <div class="container">
-              
-              {{ .Content }}
-
-            </div>
-        </div>
-      {{ partial "footer" . }}
+{{ define "title" }}
+<div class="container">
+  <div class="content-center">
+    <h1 class="title">{{ .Title }}</h1>
+    <div class="text-center">
+      {{with .Params.description }} {{ . | safeHTML }} {{ end }}
     </div>
-</body>
-{{end}}
+  </div>
+</div>
+{{ end }}
+
+{{ define "body" }}
+<div class="row">
+  <div class="col-md-8 ml-auto mr-auto text-center">
+  {{ .Content }}
+  </div>   
+</div>
+{{ end }}        
+ 

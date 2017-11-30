@@ -3,15 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/documentation/nucleo-icons/</loc>
-  </url>
-  
-  <url>
-    <loc>/documentation/template/</loc>
-  </url>
-  
-  <url>
-    <loc>/documentation/tutorial-components/</loc>
+    <loc>/2017/11/29/example-post/</loc>
+    <lastmod>2017-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -29,24 +22,45 @@
   
   <url>
     <loc>/</loc>
+    <lastmod>2017-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/documentation/</loc>
+    <loc>/tags/example/</loc>
+    <lastmod>2017-11-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/hugo/</loc>
+    <lastmod>2017-11-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2017-11-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/r/</loc>
+    <lastmod>2017-11-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
+    <lastmod>2017-11-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/blank/</loc>
+    <loc>/landing/</loc>
   </url>
   
   <url>
-    <loc>/landing/</loc>
+    <loc>/template/</loc>
   </url>
   
 </urlset>

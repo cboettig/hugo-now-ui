@@ -34,28 +34,33 @@ publishDir = "../docs"
     weight = 4
     identifier = "dropdown"
 [[menu.main]]
-    name = "Components"
+    name = "Template"
     pre = "<i class='now-ui-icons files_paper'></i>"
-    url = "#"
+    url = "/template"
     weight = 1
     parent = "dropdown"
 [[menu.main]]
-    name = "template"
-    pre = "<i class='now-ui-icons files_paper'></i>"
-    url = "#"
+    name = "Posts"
+    pre = "<i class='now-ui-icons ui-1_calendar-60'></i>"
+    url = "/post"
     weight = 2
     parent = "dropdown"
-
+[[menu.main]]
+    name = "Tags"
+    pre = "<i class='now-ui-icons shopping_tag-content'></i>"
+    url = "/tags"
+    weight = 2
+    parent = "dropdown"    
     
 [[menu.footer]]
     identifier = "twitter"
     pre = "<i class='fa fa-twitter'></i>"
-    url = "https://twitter.com/CreativeTim"
+    url = "https://twitter.com/cboettig"
     weight = 1
 [[menu.footer]]
     identifier = "github"
     pre = "<i class='fa fa-github'></i>"
-    url = "https://github.com/CreativeTim"
+    url = "https://github.com/cboettig"
     weight = 2
 [[menu.footer]]
     identifier = "copyright"
@@ -66,16 +71,10 @@ publishDir = "../docs"
 
 
 [params]
-    background = "https://climate.nasa.gov/system/internal_resources/details/original/417_1263_banner-science-1600x500.jpg"
-    name =  ""
-    twitter =  ""
-    github =  ""
-    email =  ""
-#    custom_css = []
-#    repo = ""
-#    branch = "master"
-#    math = true
-
+    background = "img/bg11.jpg"
+    tint = "orange"
+    custom_css = ["css/highlight.min.css"]
+    custom_js = []
     date_format = "Mon, Jan 2, 2006"
     description = "A website built through Hugo and blogdown."
 
@@ -85,11 +84,6 @@ publishDir = "../docs"
     highlightjsLang = ["r", "yaml"]
     highlightjsTheme = "github"
 
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
 
     
 

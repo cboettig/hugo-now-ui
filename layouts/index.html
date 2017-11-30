@@ -1,4 +1,6 @@
-{{ define "body" }}
+<!doctype html>
+<html lang="en">
+  {{partial "head" . }}
 <body class="profile-page sidebar-collapse">
     {{ partial "nav" . }}
     <div class="wrapper">
@@ -6,4 +8,5 @@
       {{ partial "footer" . }}
     </div>
 </body>
-{{end}}
+  {{partial "javascript" . }}
+</html>
