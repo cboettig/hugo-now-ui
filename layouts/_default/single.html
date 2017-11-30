@@ -1,3 +1,19 @@
+{{ define "title" }}
+<div class="container">
+  <div class="content-center">
+    <h1 class="title">{{ .Title }}</h1>
+    <div class="text-center">
+      {{with .Params.description }} {{ . | safeHTML }} {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}
+
 {{ define "body" }}
-{{ .Content }}
-{{end}}
+<div class="row">
+  <div class="col-md-8 ml-auto mr-auto text-center">
+  {{ .Content }}
+  </div>   
+</div>
+{{ end }}        
+ 
