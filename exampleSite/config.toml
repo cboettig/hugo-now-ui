@@ -84,11 +84,6 @@ publishDir = "../docs"
     highlightjsLang = ["r", "yaml"]
     highlightjsTheme = "github"
 
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
 
     
 
