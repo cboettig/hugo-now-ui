@@ -1,4 +1,5 @@
 theme = "hugo-now-ui"
+themesDir = "../.."
 baseurl = "/"
 relativeurls = true
 languageCode = "en-us"
@@ -50,8 +51,8 @@ publishDir = "../docs"
     pre = "<i class='now-ui-icons shopping_tag-content'></i>"
     url = "/tags"
     weight = 2
-    parent = "dropdown"    
-    
+    parent = "dropdown"
+
 [[menu.footer]]
     identifier = "twitter"
     pre = "<i class='fa fa-twitter'></i>"
@@ -85,5 +86,5 @@ publishDir = "../docs"
     highlightjsTheme = "github"
 
 
-    
+
 
