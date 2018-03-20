@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Components on Now UI Kit</title>
+    <title>Now UI Kit</title>
     <link>/</link>
-    <description>Recent content in Components on Now UI Kit</description>
+    <description>Recent content on Now UI Kit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 29 Nov 2017 00:00:00 +0000</lastBuildDate>
@@ -55,6 +55,18 @@
       
       <guid>/profile/</guid>
       <description>Follow      About me An artist of considerable range, Ryan — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable range. My Portfolio                             </description>
+    </item>
+    
+    <item>
+      <title>Components</title>
+      <link>/components/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/components/</guid>
+      <description>Now UI Kit. A beautiful Bootstrap 4 UI kit. Yours free.  Designed by . Coded by . --          Basic Elements Buttons Pick your style
+Default Round  With Icon    Simple   Pick your size
+Small Regular Large   Pick your color
+Default Primary Info Success Warning Danger Neutral   Links Default Primary Info Success Warning Danger    Inputs Form Controls</description>
     </item>
     
     <item>

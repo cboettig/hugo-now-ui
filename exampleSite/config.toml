@@ -13,6 +13,11 @@ publishDir = "../docs"
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
+    name = "Components"
+    url = "/components"
+    pre = "<i class='now-ui-icons design_app'></i>"
+    weight = 1
+[[menu.main]]
     name = "Landing"
     url = "/landing"
     pre = "<i class='now-ui-icons business_bank'></i>"
@@ -71,7 +76,7 @@ publishDir = "../docs"
 
 
 [params]
-    background = "img/bg11.jpg"
+    background = "/img/bg11.jpg"
     tint = "orange"
     custom_css = ["css/highlight.min.css"]
     custom_js = []
