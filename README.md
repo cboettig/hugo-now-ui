@@ -40,3 +40,26 @@ For more details, see the [preview pages](https://cboettig.github.io/hugo-now-ui
 ### Side-drawer menu open 
 
 ![](https://github.com/cboettig/hugo-now-ui/blob/master/images/sidemenu.png)
+
+
+
+## Installation
+
+### via Git
+__If you already use your Hugo project as a git repository__, it is a better practice to use a theme as a submodule instead of using a git repository inside another git repository.
+
+at the root of your hugo project : `git submodule add 'the source' 'the destination'`  
+such as an example : `git submodule add https://github.com/cboettig/hugo-now-ui themes/hugo-now-ui`  
+
+__If your Hugo project is not a git repository__ then you simply execute `git clone https://github.com/cboettig/hugo-now-ui themes/hugo-now-ui`
+
+### Cut and past way
+As you may notice Github offer you to download a [zip file](https://github.com/cboettig/hugo-now-ui/archive/master.zip)  
+Simply download it and extract the content inside ./themes/  
+I would recommand you to rename the directory from hugo-now-ui-master to hugo-now-ui
+
+## Discover
+To discover the theme and build on top of it you must copy, as usual, the exampleSite at the root of your Hugo project.  `cp ./themes/hugo-now-ui/exampleSite/* ./`  
+
+### Customizing
+Again it's a best practice to overwritten a files instead of modifying it.  It help you to easily updating Hugo and the theme without loosing your customization. To learn more about [customizing a Hugo themes](https://gohugo.io/themes/customizing/)  
