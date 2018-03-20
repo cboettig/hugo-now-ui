@@ -8,20 +8,43 @@
 </div>
 {{end}}
 
-
   {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
    <!-- List pages can get Content and yaml metadata from an _index.md -->
   {{ with .Content }}<div class="article-style" itemprop="articleBody">{{ . }}</div>{{ end }}
 
-  <div class="row">
-    <div class="col-11">
+  <div class="container justify-content-center">
+    <div class="row">
     {{ range .Paginator.Pages }}
-    <div class="article">
-      <h2><a href="{{ .RelPermalink }}">{{if .Params.image }} <img src="{{ .Params.image }}" height="50px"/> {{ end }}{{ .Title }}</a></h2>
-    </div>
+                        <div class="col-md-6 col-lg-6 col-xl-6 ml-auto mr-auto">
+                              <div class="card">
+                                <ul class="nav justify-content-center" role="tablist" data-background-color="{{ .Param "tint" | default "orange" }}">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="{{ .RelPermalink }}" role="tab">
+                                        <i class="now-ui-icons files_paper"></i> <strong>{{ .Title }}</strong>
+                                        </a>
+                                    </li>
+                                    <a class="nav-link active" href="{{ .RelPermalink }}" role="tab">
+                                    <li class="nav-item"><i class="now-ui-icons ui-1_calendar-60"></i>  {{.Date.Format "2006-01-02" }}
+                                    </a>
+                                    </li> 
+                                </ul>
+                                <div class="card-body">
+                                    <!-- Tab panes -->
+                                 {{if .Params.image }}  <img src="{{ .Params.image  | relURL }}"  class="rounded" height="100px"/>    {{ end }}
+                                 {{.Summary}}
+                                 {{ if .Truncated }}
+                                  <div>
+                                    <a href="{{ .RelPermalink }}">Read More…</a>
+                                  </div>
+                                 {{ end }}
+
+                                </div>
+                            </div>
+                    </div>
+            
     {{ end }}
     </div>
-
+  </div>
 
 
 {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
@@ -38,5 +61,8 @@
 {{ end }}
 
   <br />  
-</div>
 {{end}}
+
+
+
+
