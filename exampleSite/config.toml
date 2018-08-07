@@ -1,6 +1,5 @@
 theme = "hugo-now-ui"
 baseurl = "/"
-relativeurls = true
 languageCode = "en-us"
 title = "Now UI Kit"
 googleAnalytics = ""
@@ -8,29 +7,30 @@ disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 #enableGitInfo = true
 publishDir = "../docs"
+themesDir = "../.."
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
     name = "Components"
-    url = "/components"
+    url = "/components/"
     pre = "<i class='now-ui-icons design_app'></i>"
     weight = 1
 [[menu.main]]
     name = "Landing"
-    url = "/landing"
+    url = "/landing/"
     pre = "<i class='now-ui-icons business_bank'></i>"
     weight = 1
 [[menu.main]]
     name = "Profile"
-    url = "/profile"
+    url = "/profile/"
     pre = "<i class='now-ui-icons users_single-02'></i>"
     weight = 2
 [[menu.main]]
     name = "Signup"
     pre = "<i class='now-ui-icons clothes_tie-bow'></i>"
-    url = "/login"
+    url = "/login/"
     weight = 3
 [[menu.main]]
     name = "Dropdown"
@@ -41,19 +41,19 @@ publishDir = "../docs"
 [[menu.main]]
     name = "Template"
     pre = "<i class='now-ui-icons files_paper'></i>"
-    url = "/template"
+    url = "/template/"
     weight = 1
     parent = "dropdown"
 [[menu.main]]
     name = "Posts"
     pre = "<i class='now-ui-icons ui-1_calendar-60'></i>"
-    url = "/post"
+    url = "/post/"
     weight = 2
     parent = "dropdown"
 [[menu.main]]
     name = "Tags"
     pre = "<i class='now-ui-icons shopping_tag-content'></i>"
-    url = "/tags"
+    url = "/tags/"
     weight = 2
     parent = "dropdown"    
     
