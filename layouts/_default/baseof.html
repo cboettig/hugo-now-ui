@@ -8,7 +8,7 @@
     <div class="{{ .Params.wrapper | default "wrapper" }}">
       
         <div class="page-header {{ .Params.headerstyle | default "page-header-small"}}" filter-color="{{ .Param "tint" | default "orange" }}">
-            <div class="page-header-image" data-parallax="true" style="background-image: url('{{ (.Param "background")  | default "img/header.jpg" | relURL }}');">
+            <div class="page-header-image" data-parallax="true" style="background-image: url('{{ (.Param "background")  | default "img/header.jpg" | absURL }}');">
             </div>
             
             {{ block "title" . }}
