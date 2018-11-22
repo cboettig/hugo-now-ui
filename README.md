@@ -62,6 +62,14 @@ For more details, see the [preview pages](https://cboettig.github.io/hugo-now-ui
 
 ```
 
+
+#### Carousel
+
+```md
+{{%/* carousel title="optional" */%}}
+```
+
+
 ## Screenshots
 
 ### Wide display menu
