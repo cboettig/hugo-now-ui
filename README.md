@@ -25,6 +25,50 @@ to HTML. [cboettig](https://github.com/cboettig) brings it to Hugo.  MIT License
 
 For more details, see the [preview pages](https://cboettig.github.io/hugo-now-ui).  
 
+### Shortcodes 
+
+#### Full Width Image
+
+
+```md
+
+{{%/* image-fullwidth src="images/file.jpg" class="" */%}}
+
+```
+
+#### Image float left 
+
+```md
+
+{{%/* image-floatleft src="file.jpg" class="animate left" */%}}
+
+```
+
+#### Image float right 
+
+```md 
+
+{{%/* image-floatright src="file.jpg" class="animate right" */%}}
+
+```
+
+#### Side by side images
+
+```md
+
+{{%/* image-sidebyside src="images/file.jpg" class="animate left" */%}}
+
+{{%/* image-sidebyside src="images/file.jpg" class="animate left" */%}}
+
+```
+
+
+#### Carousel
+
+```md
+{{%/* carousel title="optional" */%}}
+```
+
 
 ## Screenshots
 
