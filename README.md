@@ -106,4 +106,4 @@ I would recommand you to rename the directory from hugo-now-ui-master to hugo-no
 To discover the theme and build on top of it you must copy, as usual, the exampleSite at the root of your Hugo project.  `cp ./themes/hugo-now-ui/exampleSite/* ./`  
 
 ### Customizing
-Again it's a best practice to overwritten a files instead of modifying it.  It help you to easily updating Hugo and the theme without loosing your customization. To learn more about [customizing a Hugo themes](https://gohugo.io/themes/customizing/)  
+It is a best practice to override a file rather than modify it. This helps you easily update Hugo and the theme without loosing your customizations. To learn more see the Hugo documentation on [customizing Hugo themes](https://gohugo.io/themes/customizing/)  
