@@ -65,6 +65,23 @@ For more details, see the [preview pages](https://cboettig.github.io/hugo-now-ui
 
 #### Carousel
 
+Include the following in your frontmatter:
+
+```yaml
+resources: 
+- src: images/IMG_5504slide.jpg
+  name: "slide-1"
+  title: 
+- src: images/IMG_5503.jpg
+  name: "slide-2"
+  title: 
+- src: images/IMG_5500.jpg
+  name: "slide-3"
+  title: 
+```
+
+Then just add the shortcode where you want the carousel to appear.
+
 ```md
 {{%/* carousel title="optional" */%}}
 ```
