@@ -11,7 +11,7 @@
             {{ range $key, $value := $slides }}
               {{ $active := "" }}
               {{ if eq $key 0 }}
-                {{ $active = "active" }}
+                {{ $active := "active" }}
               {{ end }}
               <li data-target="#carouselIndicators" data-slide-to="{{ $key }}" class="{{ $active }}"></li>
             {{ end }}
@@ -20,7 +20,7 @@
           {{ range $key, $value := $slides }}
             {{ $active := "" }}
             {{ if eq $key 0 }}
-              {{ $active = "active" }}
+              {{ $active := "active" }}
             {{ end }}
               <div class="carousel-item {{ $active}} ">
                   <img class="d-block" src="{{ .RelPermalink }}" alt="{{ .Name }}">
