@@ -2,8 +2,8 @@
 example: 
 	cp -r layouts/ exampleSite/themes/hugo-now-ui/layouts/
 	cp -r static/ exampleSite/themes/hugo-now-ui/static/
-	cd exampleSite && hugo
-#	R -e "setwd('exampleSite'); blogdown::build_site()"
+#	cd exampleSite && hugo
+	R -e "setwd('exampleSite'); blogdown::build_site()"
   
 clean: 
 	rm -rf exampleSite/themes/hugo-now-ui/layouts/
