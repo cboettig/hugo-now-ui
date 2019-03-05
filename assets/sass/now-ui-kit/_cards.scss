@@ -12,23 +12,23 @@
         min-height: 190px;
     }
 
-    &[data-background-color="orange"]{
+    & [data-background-color="orange"]{
         background-color: $primary-color;
     }
 
-    &[data-background-color="red"]{
+    & [data-background-color="red"]{
         background-color: $danger-color;
     }
 
-    &[data-background-color="yellow"]{
+    & [data-background-color="yellow"]{
         background-color: $warning-color;
     }
 
-    &[data-background-color="blue"]{
+    & [data-background-color="blue"]{
         background-color: $info-color;
     }
 
-    &[data-background-color="green"]{
+    & [data-background-color="green"]{
         background-color: $success-color;
     }
 }
