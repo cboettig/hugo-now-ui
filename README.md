@@ -19,7 +19,9 @@ to HTML. [cboettig](https://github.com/cboettig) brings it to Hugo.  MIT License
 
 - Responsive menu collapses into a side-drawer style navigation on smaller devices.  Transparent navigation bar becomes solid on scroll. 
 
-- Adjust theme colors simply by modifying the `static/sass/now-ui-kit/_variables.scss` and recompiling CSS with `sass`. 
+- Adjust theme colors simply by modifying the `static/sass/now-ui-kit/_variables.scss` ~~and recompiling CSS with `sass`.~~ Hugo will then re-compile the CSS from SASS files automatically (see #22).  
+
+- Adjust theme tint by setting the `tint` parameter.  The theme recogonizes the following tints: `orange`, `red`, `yellow`, `blue`, `green`, with orange as the default.
 
 - Example includes three free MIT licensed templates and icons.
 
@@ -117,10 +119,8 @@ __If your Hugo project is not a git repository__ then you simply execute `git cl
 ### Cut and past way
 As you may notice Github offer you to download a [zip file](https://github.com/cboettig/hugo-now-ui/archive/master.zip)  
 Simply download it and extract the content inside ./themes/  
-I would recommand you to rename the directory from hugo-now-ui-master to hugo-now-ui
+You may wish to rename the directory from hugo-now-ui-master to hugo-now-ui
 
-## Discover
-To discover the theme and build on top of it you must copy, as usual, the exampleSite at the root of your Hugo project.  `cp ./themes/hugo-now-ui/exampleSite/* ./`  
 
 ### Customizing
 It is a best practice to override a file rather than modify it. This helps you easily update Hugo and the theme without loosing your customizations. To learn more see the Hugo documentation on [customizing Hugo themes](https://gohugo.io/themes/customizing/)  
