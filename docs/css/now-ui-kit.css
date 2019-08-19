@@ -3373,15 +3373,15 @@ Created using IcoMoon - icomoon.io
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2); }
   .card .card-body {
     min-height: 190px; }
-  .card[data-background-color="orange"] {
+  .card [data-background-color="orange"] {
     background-color: #f96332; }
-  .card[data-background-color="red"] {
+  .card [data-background-color="red"] {
     background-color: #FF3636; }
-  .card[data-background-color="yellow"] {
+  .card [data-background-color="yellow"] {
     background-color: #FFB236; }
-  .card[data-background-color="blue"] {
+  .card [data-background-color="blue"] {
     background-color: #2CA8FF; }
-  .card[data-background-color="green"] {
+  .card [data-background-color="green"] {
     background-color: #18ce0f; }
 
 .card-signup {

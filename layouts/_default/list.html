@@ -1,4 +1,5 @@
 {{ define "body" }}
+{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
               
 <!-- Optional Header Image -->
 {{ if .Params.header.image }}
