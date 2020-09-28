@@ -5,7 +5,7 @@
     {{ partial "nav" . }}
     <div class="page-header" filter-color="{{.Params.tint}}">
         <div class="page-header-image" 
-             style="background-image: url('{{ (.Param "background")  | (default "img/header.jpg" | absURL) }}');">
+             style="background-image: url('{{ or (.Param "background") (default "img/header.jpg" | absURL) }}');">
         </div>
         <div class="container">
           
